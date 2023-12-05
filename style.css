@@ -219,6 +219,42 @@ body{
 .hero_right .search_field .from{
     position: relative;
 }
+.from .passenger{
+    position: relative;
+    right: 0;
+    transform: translateX(10px);
+}
+.fields .passenger_out{
+    transform: scaleX(-1);
+    position: relative;
+    right: -9px;
+    /* transform: translateX(10px); */
+}
+.relative_box{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.from input{
+    width: 100%;
+    padding: 10px;
+    border:none;
+    outline: none;
+}
+.from span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+}
+.from input:valid ~ span,
+.from input:focus ~ span{
+    color: red;
+    transform: translateY(-20px);
+    font-size: 13px;
+}
 .hero_right .search_field .transfort{
     position: absolute;
     right: 0;
