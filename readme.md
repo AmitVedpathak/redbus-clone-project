@@ -15,7 +15,7 @@ CSS
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/rebus-clone.git
+    git clone https://github.com/AmitVedpathak/redbus-clone-project.git
     ```
 
 2. Open the project directory:
