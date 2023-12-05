@@ -222,7 +222,7 @@ body{
         font-size: 16px;
     }
     .hero_right .search_field .fields{
-        border-right: none;
+        /* border-right: none; */
     }
 }
 .hero_right .search_field .from{
@@ -288,6 +288,8 @@ body{
     }
     .hero_right .search_field .fields{
         padding: 12px;
+        border-bottom: 1px solid rgb(224, 224, 224);
+        border-right: none;
     }
     .hero_right{ 
         top: 19px;
@@ -303,9 +305,8 @@ body{
     .hero_right .search_field .transfort{
         right: auto;
         bottom: 0;
-        transform: translateY(50%);
+        transform: translateY(50%) rotate(90deg);
         left: 50%;
-        transform: rotate(90deg);
         padding: 3px;
     }
     .apno{
