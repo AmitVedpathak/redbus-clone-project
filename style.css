@@ -202,15 +202,20 @@ body{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
     cursor: pointer;
 }
-@media screen and (max-width:1105px){
+@media screen and (max-width:960px) {
+    .hero_right .search_field .search_bus{
+        border-bottom-right-radius: 13px;
+        border-bottom-left-radius: 13px;
+        border-top-right-radius: 0px;
+    }
+}
+@media (min-width:963px) and (max-width:1105px){
     .hero_right .search_field .search_bus{
         font-size: 16px;
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 13px;
     }
     .hero_right .search_field .fields{
         border-right: none;
@@ -237,14 +242,12 @@ body{
 }
 .from input{
     width: 100%;
-    padding: 10px;
     border:none;
     outline: none;
 }
 .from span{
     position: absolute;
     left: 0;
-    padding: 10px;
     pointer-events: none;
     /* text-transform: uppercase; */
     transition: 0.5s;
@@ -454,6 +457,21 @@ picture img{
         width: 62%;
         height: auto;
         margin: auto;
+    }
+    .offer_card {
+        width: 290px;
+        min-width: 247px;
+        height: 132px;
+        min-height: 159px;
+    }
+    .offer_card_image img {
+        width: 61px;
+    }
+    .cupon_div {
+        font-size: 12px;
+    }
+    .cupon_div p {
+        padding: 0px 5px;
     }
 }
 .train_bus{
