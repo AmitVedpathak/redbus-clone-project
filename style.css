@@ -144,10 +144,14 @@ body{
         display: block;
     }
     .mobile_box ul{
-        justify-content: space-around;
+        justify-content: space-between;
+        gap: 0;
     }
     .mobile_box ul li img{
         width: 41px;
+    }
+    .mobile_box ul li {
+        font-size: 13px;
     }
 }
 
@@ -302,6 +306,7 @@ body{
         transform: translateY(50%);
         left: 50%;
         transform: rotate(90deg);
+        padding: 3px;
     }
     .apno{
         font-size: 21px;
@@ -982,6 +987,7 @@ footer {
     padding: 2rem;
     border-bottom: 2px solid #ccc;
     gap: 2rem;
+    font-size: 12px;
 }
 .footer1_col {
     display: flex;
@@ -1005,8 +1011,12 @@ footer {
     max-width: 300px;
     font-size: 0.9rem;
 }
+.footer1_col1 img{
+    width: 73px;
+}
 .footer1_col1 p{
     margin-top: 10px;
+    font-size: 12px;
 }
 .social {
     width: 85%;
@@ -1017,6 +1027,9 @@ footer {
     padding-block: 3rem;
     justify-content: space-between;
     align-items: center;
+}
+.social p{
+    font-size: 12px;
 }
 .social_icons {
     display: flex;
