@@ -144,7 +144,7 @@ body{
         display: block;
     }
     .mobile_box ul{
-        justify-content: space-between;
+        justify-content: space-around;
         gap: 0;
     }
     .mobile_box ul li img{
