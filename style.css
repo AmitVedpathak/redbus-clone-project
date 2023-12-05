@@ -221,9 +221,6 @@ body{
     .hero_right .search_field .search_bus{
         font-size: 16px;
     }
-    .hero_right .search_field .fields{
-        /* border-right: none; */
-    }
 }
 .hero_right .search_field .from{
     position: relative;
